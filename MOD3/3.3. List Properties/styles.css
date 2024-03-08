@@ -1,0 +1,18 @@
+.listsatu {
+    background-color: tomato;
+    margin: 10px 5px 10px 5px;
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+}
+
+.listdua {
+    background-color: lightblue;
+    margin: 5px 5px 15px 15px;
+    list-style-position: inside;
+}
+
+/* Alignment of Text */
+.listsatu {
+    list-style-type: lower-roman;
+    padding: 0; /* Reset padding for better alignment */
+}

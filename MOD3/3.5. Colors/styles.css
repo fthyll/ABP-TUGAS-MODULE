@@ -1,0 +1,13 @@
+body {
+    background-color: hsl(20, 40%, 70%);
+    color: orange;
+}
+
+#teks {
+    color: #2F3CDF;
+}
+
+/* Dengan opacity sebesar 0.5 */
+input.text-field {
+    background-color: rgba(32, 55, 122, 0.5);
+}
