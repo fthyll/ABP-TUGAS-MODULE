@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exercise 1: Count Odd Numbers</title>
+</head>
+<body>
+  <label for="min">Minimum Value:</label>
+  <input type="number" id="min" name="min">
+  <label for="max">Maximum Value:</label>
+  <input type="number" id="max" name="max">
+  <button onclick="countOdd()">Count Odd Numbers</button>
+
+  <script>
+    function countOdd() {
+      var min = parseInt(document.getElementById("min").value);
+      var max = parseInt(document.getElementById("max").value);
+      var count = 0;
+      for (var i = min; i <= max; i++) {
+        if (i % 2 !== 0) {
+          count++;
+        }
+      }
+      alert("Number of odd numbers between " + min + " and " + max + ": " + count);
+    }
+  </script>
+</body>
+</html>
